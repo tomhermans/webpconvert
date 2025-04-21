@@ -1,0 +1,25 @@
+{
+   "name": "webpconvert",
+   "version": "1.0.0",
+   "description": "Convert WebP images to JPG or PNG",
+   "main": "webpconvert.js",
+   "bin": {
+      "webpconvert": "./webpconvert.js"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "webp",
+      "converter",
+      "image",
+      "jpg",
+      "png"
+   ],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "minimist": "^1.2.8",
+      "sharp": "^0.33.1"
+   }
+}
